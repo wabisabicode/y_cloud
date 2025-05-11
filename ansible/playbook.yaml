@@ -1,0 +1,21 @@
+--- 
+- name: Установка стандартных пакетов
+  hosts: all
+  roles:
+    - role: default_y_packages
+  tags:
+    - install_packages
+
+- name: Proxy nginx
+  hosts: pnginx
+  roles:
+    - role: nginx_proxy
+  tags:
+    - nginx_proxy
+
+- name: Sending nginx
+  hosts: snginx 
+  roles:
+    - role: nginx_send
+  tags:
+    - nginx_send

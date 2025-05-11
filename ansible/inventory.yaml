@@ -1,0 +1,18 @@
+---
+linux:
+  children:
+    pnginx:
+      hosts:
+        vm1:
+          ansible_host: 94.131.84.123
+    snginx:
+      hosts:
+        vm2:
+          ansible_host: 94.131.83.224
+        vm3:
+          ansible_host: 94.131.84.211
+  vars:
+    ansible_ssh_private_key_file: ~/.ssh/id_ed25519_terraform
+    ansible_user: "debian"
+    connection_protocol: ssh
+    ansible_become: true

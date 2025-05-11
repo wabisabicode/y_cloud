@@ -1,0 +1,15 @@
+---
+# vars file for default_y_packages
+standard_packages:
+  - dnsutils
+  - net-tools
+  - rsync
+  - mc
+  - curl
+  - wget
+
+python_packages:
+  - python3
+  - python3-pip
+  - python3-venv
+  - python3-setuptools
