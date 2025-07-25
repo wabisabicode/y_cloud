@@ -38,7 +38,7 @@ The setup creates three Debian VMs:
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/wabisabicode/y_cloud.git](https://github.com/wabisabicode/y_cloud.git)
+    git clone https://github.com/wabisabicode/y_cloud.git
     cd y_cloud
     ```
 
