@@ -14,6 +14,7 @@ The setup creates three Debian VMs:
 [![Yandex Cloud](https://img.shields.io/badge/-Yandex%20Cloud-464646?style=flat&logo=yandex&logoColor=white&color=FF0000)](https://cloud.yandex.com/)
 
 ## Project Structure
+```
 .
 ├── ansible/                  # Ansible configuration files
 │   ├── default_y_packages/   # Ansible roles
@@ -23,6 +24,7 @@ The setup creates three Debian VMs:
 │   └── playbook.yaml         # Main playbook
 └── terraform/                # Terraform configuration files
     └──terraform.tfvars       # Main infrastructure definition
+```
 
 ## How to Deploy
 
